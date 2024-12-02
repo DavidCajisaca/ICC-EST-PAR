@@ -1,12 +1,9 @@
 package cajas;
 
-public class par <K,V> {
+public class Par<K, V> {
     private K clave;
     private V valor;
-    public par(K clave, V valor) {
-        this.clave = clave;
-        this.valor = valor;
-    }
+
     public void establecerClave(K clave) {
         this.clave = clave;
     }
